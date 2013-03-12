@@ -1,0 +1,36 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SchoolActivity"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="Find Your Home in the Ideal School District" />
+    
+    <Button 
+        android:id="@+id/btn_home"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter Home Address"
+        android:onClick="onHomeClick"/>
+    
+    <Button 
+        android:id="@+id/btn_school"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Look Up School"
+        android:onClick="onSchoolClick"/>
+    
+    <Button
+        android:id="@+id/btn_find"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Find Homes Nearby Me"
+        android:onClick="onFindClick"/>
+    
+</LinearLayout>
