@@ -71,7 +71,7 @@ public String onClickRange(View v){
 
 	api= getResources().getStringArray(R.array.api_score);
 	AlertDialog.Builder builder = new AlertDialog.Builder(this); 
-	builder.setTitle("Choose Grade Level");
+	builder.setTitle("Choose minimum API Level");
 	builder.setItems(api, new DialogInterface.OnClickListener(){
 		
 		@Override
@@ -91,9 +91,17 @@ public String onClickRange(View v){
 
 
 public void onClickSearch(View v){
-	
+	String two = "250";
 	
 	 Toast.makeText(getBaseContext(), "TEST" + score, Toast.LENGTH_SHORT).show();
+	 
+	 
+	 if(two.equals(score)){
+		 Toast.makeText(getBaseContext(), "score equals works" + score, Toast.LENGTH_SHORT).show();
+	 } 
+	 else{
+		 Toast.makeText(getBaseContext(), "score too low" + score, Toast.LENGTH_SHORT).show();
+	 }
 	
 }
 

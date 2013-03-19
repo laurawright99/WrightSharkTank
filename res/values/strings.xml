@@ -25,14 +25,14 @@
     </string-array>
     
     <string-array name="api_score">
-        <item>950+ API Score</item>
-        <item>850+ API Score</item>
-        <item>750+ API Score</item>
-        <item>650+ API Score</item>
-        <item>550+ API Score</item>
-        <item>450+ API Score</item>
-        <item>350+ API Score</item>
-        <item>250+ API Score</item>
+        <item>950</item>
+        <item>850</item>
+        <item>750</item>
+        <item>650</item>
+        <item>550</item>
+        <item>450</item>
+        <item>350</item>
+        <item>250</item>
     </string-array>
     
 </resources>
